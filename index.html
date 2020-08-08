@@ -3,6 +3,8 @@
 <head>
     <!-- BootStrap4 CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
 
     <!-- Custom-CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -18,148 +20,250 @@
         <!-- Header Start -->
         <header id="main-header">
             <div class="row no-gutters">
-                <div class="col-lg-4 col-md-5">
-                    <img src="img/121014043.png" alt="File-Photo" class="prof-img">
-                </div>
-                <div class="col-lg-8 col-md-7">
-                    <div class="d-flex flex-column">
-                       <div class="p-5 bg-dark text-white">
-                           <div class="d-flex flex-row align-items-center justify-content-between">
-                               <h1>Santosh V</h1>
-                               <div>
-                                   <a href="" class="text-white"><i class="fab fa-twitter"></i></a>
-                               </div>
-                               <div>
-                                <a href="" class="text-white"><i class="fab fa-facebook"></i></a>
-                                </div>
-                                <div>
-                                    <a href="" class="text-white"><i class="fab fa-instagram"></i></a>
-                                </div>
-                                <div>
-                                    <a href="https://github.com/Santosh311" class="text-white"><i class="fab fa-github"></i></a>
-                                </div>
-                           </div>
+                
+                <div class="col-lg-9 col-md-8">
+                    <div class="d-flex flex-column ">
+                       <div class="p-3 bg-purple text-center">
+                               <h1 class="text-center">Santosh V</h1>
                        </div>
-                       <div class="p-5 bg-black text-center">
-                           <h4>Lorem ipsum dolor sit amet.</h4>
+                       <div class="p-3 bg-danger text-center text-white">
+                           <h4>Student at SASTRA Deemed University</h4>
                        </div>
-                       <div class="d-flex flex-row text-white align-items-stretch">
-                           <div class="p-4 bg-danger menu-item text-center" data-toggle="collapse" data-target="#home">
+                       <div class="d-flex flex-row text-white">
+                           <div class="p-3 bg-info menu-item text-center" data-toggle="collapse" data-target="#home">
                             <i class="fas fa-home fa-2x"></i>
-                            <span class="d-none d-lg-block">Home</span>
+                            <span class="d-none d-md-block">About</span>
                            </div>
-                           <div class="p-4 bg-primary menu-item text-center" data-toggle="collapse" data-target="#resume">
+                           <div class="p-3 bg-warning menu-item text-center" data-toggle="collapse" data-target="#academy">
                             <i class="fas fa-graduation-cap fa-2x"></i>
-                            <span class="d-none d-lg-block">Resume</span>
+                            <span class="d-none d-md-block">Education</span>
                            </div>
-                           <div class="p-4 bg-success menu-item text-center">
-                            <i class="fas fa-folder-open fa-2x"></i>
-                            <span class="d-none d-lg-block">Works</span>
+                           <div class="p-3 bg-success menu-item text-center" data-toggle="collapse" data-target="#skills">
+                            <i class="fas fa-laptop-code fa-2x"></i>
+                            <span class="d-none d-md-block">Skills</span>
                            </div>
-                           <div class="p-4 bg-warning menu-item text-center">
-                            <i class="fas fa-envelope fa-2x"></i>
-                            <span class="d-none d-lg-block">Contact</span>
+                           <div class="p-3 bg-indigo menu-item text-center" data-toggle="collapse" data-target="#works">
+                            <i class="fas fa-tasks fa-2x"></i>
+                            <span class="d-none d-md-block">Works</span>
                            </div>
                        </div>
                     </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <img src="img/121014043.png" alt="File-Photo" style="height: 245.5px;">
                 </div>
             </div>
         </header>
         <!-- Header End -->
 
         <!-- Home -->
-        <div id="home" class="collapse">
-            <div class="card card-body bg-danger text-white">
-                <h2>Welcome to my E-Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed, facere voluptates exercitationem deleniti iste eaque saepe accusamus veritatis id nostrum eos aperiam alias sapiente ab quas iusto molestiae reprehenderit animi vitae ex adipisci corporis.</p>
-            </div>
-            <div class="card card-body py-5">
-                <h3>My Skills</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, nulla sunt voluptate tempora perspiciatis dolor qui et quia non excepturi, quae amet provident, consequuntur esse!</p>
-                <hr>
-                <h4>C</h4>
-                <div class="progress my-3">
-                    <div class="progress-bar bg-success" style="width: 90%;">
-                    </div>
-                </div>
-                <h4>C++</h4>
-                <div class="progress my-3">
-                    <div class="progress-bar bg-success" style="width: 80%;">
-                    </div>
-                </div>
-                <h4>Python</h4>
-                <div class="progress my-3">
-                    <div class="progress-bar bg-success" style="width: 50%;">
-                    </div>
-                </div>
-                <h4>BootStrap</h4>
-                <div class="progress my-3">
-                    <div class="progress-bar bg-success" style="width: 60%;">
-                    </div>
-                </div>
-                <h4>MySQL</h4>
-                <div class="progress my-3">
-                    <div class="progress-bar bg-success" style="width: 70%;">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="resume" class="collapse">
-            <div class="card card-body bg-primary text-white">
-                <h2>Welcome to my E-Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed, facere voluptates exercitationem deleniti iste eaque saepe accusamus veritatis id nostrum eos aperiam alias sapiente ab quas iusto molestiae reprehenderit animi vitae ex adipisci corporis.</p>
+        <div id="home" class="collapse show">
+            <div class="card-header bg-info text-white p-4">
+                <h2 class="py-2">Welcome to my E-Portfolio</h2>
+                <p class="h5 ml-4">This is my E-Portfolio made using BootStrap, HTML & CSS.</p>
             </div>
             <div class="card card-body">
-                <h3>Educational Qualifications</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, saepe quas? Doloribus, nobis culpa quas voluptates at repudiandae consectetur laudantium, molestiae eaque minus nihil sint!</p>
+                <h3 class="summary">Professional Summary</h3><br>
+                <p class="h5 bg-light p-2">
+                    My name is Santosh V. I am from Chennai, Tamil Nadu. I did my schooling at Chinmaya Vidaylaya Hr. Sec. School. Presently, I am a student at SASTRA University, Thanjavur. I enrolled in the 4-year B.Tech Information & Communication Technology Program. From the beginning, I was moved by the social environment owing to meet people from different backgrounds speaking different languages.<br><br>Throughout the academic program, I acquired skills based on Programming languages like C, C++, Java & Python and also the key networking concepts, OS Fundementals and SQL commands in DBMS. I also learnt the basic concepts of Signal Processing. I also attended few workshops related to my area of interest. Being part of KS Upahaar, I also participated in club activities such as visiting old age homes and providing them the needy equipments.<br><br>I am an Adaptive, Flexible & Reliable candidate. I will make sure that I will instill team spirit among my team-mates & also learn from mistakes, if any committed. I will respect my senior mentors and team leaders for any decisions to be taken or to be consulted.   
+                </p>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">School name</h4>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, deserunt aut. Magni iusto dicta autem adipisci delectus mollitia rerum! Ab officia tempora magni. Deleniti, sit.</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum dolor.</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum dolor.</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum dolor.</p>
-                            <div class="card-footer"><h6 class="text-muted">2004-17</h6></div>
-                        </div>
+            
+        </div>
+        <!-- Resume -->
+        <div id="academy" class="collapse">
+            <div class="card card-body bg-warning text-dark py-3">
+              <h2>Academic Qualifications</h2>
+              <p class="lead">My Academic Qualifications are listed below</p>
+            </div>
+            <div class="card card-body py-3">
+              <div class="card-deck">
+                <div class="card">
+                  <div class="card-body" style="background-color: aquamarine;">
+                    <div class="card-title">
+                      <h4>College</h4>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">School name</h4>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, deserunt aut. Magni iusto dicta autem adipisci delectus mollitia rerum! Ab officia tempora magni. Deleniti, sit.</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum dolor.</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum dolor.</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum dolor.</p>
-                            <div class="card-footer"><h6 class="text-muted">2004-17</h6></div>
-                        </div>
+                    <div class="card-text">  
+                      <p class="card-text font-weight-bold">SASTRA Deemed to be University</p>
+                      <p>
+                        B.Tech Information & Communication Technology
+                      </p>
+                      <p class="pb-3">
+                        Graduating with a CGPA of 7.21
+                      </p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">School name</h4>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, deserunt aut. Magni iusto dicta autem adipisci delectus mollitia rerum! Ab officia tempora magni. Deleniti, sit.</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum dolor.</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum dolor.</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum dolor.</p>
-                            <div class="card-footer"><h6 class="text-muted">2004-17</h6></div>
-                        </div>
+                    <div class="card-footer">
+                      <h6 class="text-muted">Graduating : 2021</h6>
                     </div>
+                  </div>
                 </div>
-                
+                <div class="card">
+                    <div class="card-body" style="background-color: aquamarine;">
+                      <div class="card-title">
+                        <h4>Higher Secondary (+2)</h4>
+                      </div>
+                      <div class="card-text">  
+                        <p class="font-weight-bold">Chinmaya Vidyalaya Hr. Sec. School</p>
+                        <p class="mb-5 pb-5">
+                          Graduated with a aggregate of 96.3%
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <h6 class="text-muted">Graduated : 2017</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body"  style="background-color: aquamarine;">
+                      <div class="card-title">
+                        <h4>Higher Secondary (+2)</h4>
+                      </div>
+                      <div class="card-text">  
+                        <p class="font-weight-bold">Chinmaya Vidyalaya Sr. Sec. School</p>
+                        <p class="mb-5 pb-5">
+                          Graduated with a CGPA of 9.6
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <h6 class="text-muted">Graduated : 2015</h6>
+                      </div>
+                    </div>
+                  </div>  
+              </div>
             </div>
         </div>
-    </div>
-   
-   
-
-
-
-
+        <!-- Skills -->
+        <div id="skills" class="collapse">
+            <div class="card card-body bg-success text-white py-3">
+                <h2>My Skills</h2>
+                <p class="lead">Following are the skills that I gained.</p>
+            </div>
+            <div class="card card-body py-5">
+              <hr>
+              <h4>C</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 85%;"></div>
+              </div>
+              <h4>C++</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 90%;"></div>
+              </div>
+              <h4>Java</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 45%;"></div>
+              </div>
+              <h4>Python</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 60%;"></div>
+              </div>
+              <h4>HTML 5</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 100%;"></div>
+              </div>
+              <h4>CSS 5</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 100%;"></div>
+              </div>
+              <h4>Java Script</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 70%;"></div>
+              </div>
+              <h4>PHP</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 40%;"></div>
+              </div>
+              <h4>BootStrap</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 80%;"></div>
+              </div>
+              <h4>MySQL</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 50%;"></div>
+              </div>
+            </div>
+        </div>
+        <!-- Works -->
+        <div id="works" class="collapse">
+            <div class="card card-body bg-indigo text-white py-3">
+                <h2>Works</h2>
+                <p class="lead">A list of my works is given below</p>
+            </div>
+            <div class="card card-body px-2 py-4">
+                <div class="dropdown text-center">
+                        <button class="btn btn-primary dropdown-toggle mx-auto" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select a Category
+                        </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="" data-toggle="collapse" data-target="#intern">Internships</a>
+                        <a class="dropdown-item" href="" data-toggle="collapse" data-target="#certificate">Certifications</a>
+                        <a class="dropdown-item" href="" data-toggle="collapse" data-target="#language">Languages Known</a>
+                    </div>
+                    <div id="intern" class="collapse">
+                        <div class="card my-4 bg-light text-left">
+                            <div class="card-header">
+                                <h3>Internships <span class="badge badge-pill badge-primary ml-3">2</span></h3>
+                            </div>
+                            <div class="card-body pb-3">
+                                <h4>Short-term Winter Internship </h4>
+                                <ol class="list-group list-group-item-primary">
+                                    <li class="list-group-item">Attended a short term winter internship at Railnet Solutions, Madurai</li>
+                                    <li class="list-group-item">Learnt about the basics of PHP & .Net Framework using SQL Server & MySQL commands</li>
+                                    <li class="list-group-item">Also learnt about the basics of Python Programming</li>
+                                </ol>
+                                <h4 class="pt-3">Online Internship </h4>
+                                <ol class="list-group">
+                                    <li class="list-group-item">Attended an online internship conducted by Skills Safari, Coimbatore</li>
+                                    <li class="list-group-item">Learnt how to build responsive front-end websites using HTML, CSS, BootStrap, Javascript & JQuery </li>
+                                    <li class="list-group-item">Also learnt the basics of Search Engine Optimization</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="certificate" class="collapse">
+                        <div class="card my-4 bg-light text-left">
+                            <div class="card-header">
+                                <h3>Certifications<span class="badge badge-pill badge-primary ml-3">4</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group list-group-item-primary">
+                                    <li class="list-group-item">Attended a crash course on C, C++ and Star Office</li>
+                                    <li class="list-group-item">Online Course series about Python Programming by University of Michigan on Coursera Platform</li>
+                                    <li class="list-group-item">Attended the Shakuntala Devi Challenge on Aptitude launched by Talent Battle</li>
+                                    <li class="list-group-item">Attended a webinar on overview of Front-End Web Development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="language" class="collapse">
+                        <div class="card my-4 bg-light text-left">
+                            <div class="card-header">
+                                <h3>Languages Known<span class="badge badge-pill badge-primary ml-3">3</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group list-group-item-primary">
+                                    <li class="list-group-item">English - Read & Write, Spoken</li>
+                                    <li class="list-group-item">Tamil - Read & Write, Spoken</li>
+                                    <li class="list-group-item">Hindi - Read & Write, Spoken</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer id="main-footer" class="p-4 bg-dark text-white">
+            <div class="row">
+                <div class="d-inline mx-auto">
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJPswCdgxHqDlqwwhnKZGVWRXRQTjvBJJfDvMpvqrDcwgcjLXRSgjHQWhqKXNnwFfgng" class="btn btn-outline-light">
+                            <i class="fas fa-envelope fa-2x mx-3"></i><h5 class="d-inline">santosh311302@gmail.com</h5>
+                            </a>
+                        <i class="fas fa-phone-square-alt fa-2x mx-3"></i><h5 class="d-inline">+91 9080437078</h5>
+                </div>
+            </div>
+        </footer>
+    </div>    
     <!-- Bootstrap4 JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
@@ -167,7 +271,23 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous"></script>
+
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+    </script>
+
+    <!-- Collapse Script -->
+    <script>
+    $('.menu-item').click(function(){
+        $('.collapse').collapse('hide');
+    });
+</script>
 </body>
 </html>
